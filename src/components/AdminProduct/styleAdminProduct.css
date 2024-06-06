@@ -1,0 +1,25 @@
+.containerAdmin{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.WrapperHeaderAdmin {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button-admin{
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+}
+.select-admin{
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}

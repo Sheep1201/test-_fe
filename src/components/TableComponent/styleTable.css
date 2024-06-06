@@ -1,0 +1,10 @@
+.Table {
+    width: 1400px;
+    display: block;
+    overflow-x: auto;
+}
+
+.Table table {
+    width: auto;
+    white-space: nowrap;
+}

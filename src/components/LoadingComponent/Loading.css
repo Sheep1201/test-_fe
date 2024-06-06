@@ -1,0 +1,5 @@
+.custom-spin {
+    .ant-spin-dot-item {
+        background-color: red; /* Đổi màu của chấm trong Spin thành màu đỏ */
+    }
+}

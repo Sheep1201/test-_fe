@@ -1,0 +1,23 @@
+.containerAdmin{
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.WrapperHeaderAdmin {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button-admin{
+    width: 120px;
+    height: 50px;
+    margin-top: 30px;
+}
+
+:where(.css-dev-only-do-not-override-1ae8k9u).ant-checkbox-indeterminate .ant-checkbox-inner:after {
+    background-color: #ff1616;
+
+}

@@ -1,0 +1,43 @@
+.styleNameProduct {
+    font-size: large;
+    font-weight: bold;
+    padding: 5px 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Số dòng hiển thị trước khi bắt đầu hiển thị dấu ... */
+    -webkit-box-orient: vertical;
+}
+.styleDescription{
+    font-size: medium;
+    padding: 5px 20px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Số dòng hiển thị trước khi bắt đầu hiển thị dấu ... */
+    -webkit-box-orient: vertical;
+}
+.stylePrice{
+    font-size: 15px;
+    color: red;
+}
+.stylePriceSale{
+    font-size: 12px;
+    text-decoration: line-through;
+}
+.styleButtonBuy{
+    background-color: rgba(255, 255, 255, 0) !important;
+    color: red;
+    border: 1px solid red;
+    border-radius: 60px;
+    width: 100px;
+    height: 40px;
+}
+.styleButtonBuy:hover{
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold;
+    border: 1px solid red !important;
+    background-color: red !important;
+}
+
+.ant-card-body{
+    padding: 0px !important;
+}

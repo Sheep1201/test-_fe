@@ -1,0 +1,55 @@
+.hexagon-wrapper {
+    width: 222px;
+    height: 222px;
+    background-color: black;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hexagon-wrapper-small.clicked, .hexagon-wrapper.clicked{
+    background-color: red; /* Màu nền khi được nhấp */
+}
+
+.hexagon{
+    width: 220px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttonCustom{
+    display: flex;
+    width: 700px;
+    height: 700px;
+}
+
+.hexagon-wrapper-small{
+    width: 152px;
+    height: 152px;
+    background-color: black;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.hexagon-small{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 255, 255);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

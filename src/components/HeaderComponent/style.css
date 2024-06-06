@@ -1,0 +1,24 @@
+.WrapperHeader {
+    background-color: rgb(245, 245, 245);
+    padding: 10px 120px;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.WrapperLogoHeader {
+    margin-right: '20px';
+}
+
+.WrapperHeaderAccount {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 30px;
+}
+
+.content-popup{
+    cursor: pointer;
+}
+.content-popup :hover{
+    font-weight: 500;
+}
+

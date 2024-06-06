@@ -1,0 +1,46 @@
+.HeaderPage {
+    height: 80px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+    height: 820px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(252, 252, 252, 0.748);
+}
+
+.box-form-signin {
+    height: 500px;
+    width: 450px;
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.box-name{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px 20px 50px;
+    justify-content: center;
+    align-items: center;
+}
+.styleButtonEnter[disabled]:hover {
+    /* Định dạng khi hover được tắt */
+    background-color: #f7f7f7 !important;
+    color: rgb(190,191,204) !important;
+    border-color: rgb(190,191,204) !important;
+    font-weight: normal !important;
+}
